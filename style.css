@@ -1,0 +1,36 @@
+html, body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    color: #444;
+  }
+  
+  #card-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #card-area img {
+    height: 120px;
+    margin: 10px;
+  }
+  
+  button {
+    font-size: 1em;
+    padding: 10px 15px;
+    margin: 10px;
+    background: #617CFF;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background: #ddd;
+    cursor: not-allowed;
+  }
